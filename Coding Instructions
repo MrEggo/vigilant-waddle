@@ -36,3 +36,9 @@ Greeting= Hello + Space + Name
 Welcome= "welcome!"
 Question= "How are you?"
 Combination_Of_Welcome_And_Question= "{} {}".format(Welcome, Question)
+
+#Next is a f string.
+
+Greeting= "Welcome!"
+Wonder= "I was wondering how you day was."
+Greeting_Wonder= f"{Greeting} {Wonder}"
