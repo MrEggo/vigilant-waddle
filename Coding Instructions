@@ -42,3 +42,6 @@ Combination_Of_Welcome_And_Question= "{} {}".format(Welcome, Question)
 Greeting= "Welcome!"
 Wonder= "I was wondering how you day was."
 Greeting_Wonder= f"{Greeting} {Wonder}"
+
+#The way you find out what all the functions do is:
+print(help(str))
