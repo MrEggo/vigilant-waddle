@@ -6,8 +6,8 @@ print(you_choose_variable_name) #Will print what you made you_choose_variable_na
 # There are also booleans which are True or False which you can assign to a variable.
 print(you_choose_variable_name.upper()) #Will make the string you assigned to you_choose_variable_name all uppercase.
 print(you_choose_variable_name.lower()) #Will make the string you assigned to you_choose_variable_name all lowercase.
-print(you_choose_variable_name.count("t") #Will see how many times a t appears.
-print(you_choose_variable_name.find("String") #Will  find where the word string is.
+print(you_choose_variable_name.count("t")) #Will see how many times a t appears.
+print(you_choose_variable_name.find("String")) #Will  find where the word string is.
 
 # Next we are going to do the replace function.
 
@@ -36,12 +36,6 @@ Greeting= Hello + Space + Name
 Welcome= "welcome!"
 Question= "How are you?"
 Combination_Of_Welcome_And_Question= "{} {}".format(Welcome, Question)
-
-# Next is a f string.
-
-Greeting= "Welcome!"
-Wonder= "I was wondering how you day was."
-Greeting_Wonder= f"{Greeting} {Wonder}"
 
 # The way you find out what all the functions do is:
 print(help(str))
