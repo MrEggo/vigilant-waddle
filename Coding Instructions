@@ -60,3 +60,16 @@ Next is math.
 # Greater or Equal: 3 >= 2
 # Less or Equal:    3 <= 2
 
+#Math Coding
+num=1
+num+= 1
+print(num)
+num2_0=1
+num2_0*=10
+print(num2_0)
+num3_0=4
+num3_0/=2
+print(num3_0)
+print(abs(-100)) #abs means absolute value.
+
+
