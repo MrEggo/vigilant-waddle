@@ -1,0 +1,38 @@
+#Codes to remember!
+#These are beginner codes.
+print("Whatever you want goes inside these quotations")
+you_choose_variable_name=("Integer or string. String is words.")
+print(you_choose_variable_name) #Will print what you made you_choose_variable_name say. In this case it will print Integer or string. String is words
+#There are also booleans which are True or False which you can assign to a variable/
+print(you_choose_variable_name.upper()) #Will make the string you assigned to you_choose_variable_name all uppercase.
+print(you_choose_variable_name.lower()) #Will make the string you assigned to you_choose_variable_name all lowercase.
+print(you_choose_variable_name.count("t") #Will see how many times a t appears.
+print(you_choose_variable_name.find("String") #Will  find where the word string is.
+
+#Next we are going to do the replace function.
+
+replace_function= "Replace Function"
+replace_function.replace("Function", "Replace")
+
+#Also you can replace with words you have not created. Watch how.
+
+Hello= "Hello World"
+Hello_World= Hello.replace("World", "Folks")
+
+#You can also update the variable so you can put words in you have not out in the code yet Watch how!
+
+Hello= "Hello World"
+Hello= Hello.replace("World", "Folks")
+
+#Next we will learn how to add variables together.
+
+Hello= "Hello"
+Space= " "
+Name= "MrEggo"
+Greeting= Hello + Space + Name
+
+#Next is another way of adding variables together.
+
+Welcome= "welcome!"
+Question= "How are you?"
+Combination_Of_Welcome_And_Question= "{} {}".format(Welcome, Question)
