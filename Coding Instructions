@@ -80,7 +80,9 @@ print(round(3.75, 1))
 #Next if we have a variable assigend to "2", that would be a string so how do we turn it into a integer? Watch how.
 soon_to_be_int= "2"
 soon_to_be_int2= "5"
-print(int(soon_to_be_int)+int(soon_to_be_int2)
+
+soon_to_be_int= int(soon_to_be_int)
+soon_to_be_int2= int(soon_to_be_int2)
 
 
 
