@@ -114,6 +114,72 @@ names.insert(0,"Cousin4") #0 is the spot where it says me. It would make Cousin4
 names_to_remember= ["Her", "Him] #Just adding another list
 names.extend(names_to_remember) #Will add Him and Her to the orriginal list.
 
+#To remove a value you use the remove function
+
+names.remove(Cousin4)
+
+#To revers the code use the reverse function:
+
+names.reverse()
+
+#To sort the list you use the sort function:
+
+names.sort()
+
+#To put this in decending order in the parenthesees you put:
+
+names.sort(reverse=True)
+
+#To get a sorted version without altering the variable you do:
+
+sorted_names= sorted(names)
+
+#If we wanted to do something cool with numbers listen close:
+nums= [1,4,9,2,8,6,5,7,3] #You can do all those functions we did with the names list.
+print(min(nums)) #Will print the smallest number
+print(max(nums)) #Will print largest number
+print(sum(nums)) #Will add all the numbers together
+
+#Okay the next thing we will do is learn the index command.
+
+word= ["Hello", "Bye", "Large", "Small"]
+print(word.index("Large") #Will find where the word large is
+
+#To find out if a word is in our list we do:
+
+print("Huge" in word)
+
+#To see the words and the place you use this function
+
+for index, words in enumerate(word):
+  print(index, words)
+  
+#When we are making the code do the enumerate you can make it start at a certain number
+
+for index, words in enumerate(word, start=1):
+  print(index, words)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
