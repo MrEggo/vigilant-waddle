@@ -149,15 +149,298 @@ print(word.index("Large") #Will find where the word large is
 
 print("Huge" in word)
 
-#To see the words and the place you use this function
+#To see the words and the place you use this function(place= 0,1,2 ect)
 
 for index, words in enumerate(word):
   print(index, words)
   
 #When we are making the code do the enumerate you can make it start at a certain number
 
-for index, words in enumerate(word, start=1):
+for index, words in enumerate(word, start=1): 
   print(index, words)
+
+#If we want to put a comma or something to divide a list you do this:
+
+chicken= ["Chicken Wings", "Chicken Fingers", "Baked Chicken", "Barbeque Chicken"]
+chicken_str= ", ".join(chicken)
+
+#To make the list go back to it's original way you do this:
+
+chickenstr2= chicken_str.split(", ")
+
+#Next we will learn tuples. 
+#Tuples are things you cannot modify. A tuple looks kind of like this.
+
+tuple1= ("I am not a list", "I am a tuple", "I can not be modifyed", "You can access things just as easy though.", "Lists and tuples are the same things just you can not append, remove and ect with a tuple")
+
+#Next we will learn about sets
+#Sets are the same thing as lists just sets have curly brackets and are made to tell you if something is in a set. Also when using a set it might change the order of the way you had things in because sets do not care about order
+
+set= {"Set", "I am a set", "Set", "Curly", "Bracket} #If I were to print this even this it would only type Set out once because if I have something in a set twice it wont print out with a list watch and see!                                                                                                    
+print(set)
+print("I am a set" in set) #What this will do is tell you if the string is in the code or not.
+
+#Next I am going to show you how to see if you have two lists and want to see if anything is the same in  the set.
+
+day=  {"Language Arts", "Math", "Science", "Tech", "Social Studies"}
+summer_day= {"Math", "Tech", "Free time", "Video Games"} #Just making 2 courses now we are making the code to tell us what they both have in common this is only used with sets.
+print(day.intersection(summer_day))  #We could make a variable that would be equal to day.intersection(summer_day)
+
+#If we want to see what is in the day set but not the summer day you do this!
+
+print(day.difference(summer_day)) # You can make a variable equal to day.difference(summer_day)
+
+#To combine all of this you use the combine function
+
+print(day.union(summer_day)) #You can make a variable equal to day.union(summer_day)
+
+#What you need to know about empty lists
+# Empty Lists
+empty_list = []
+empty_list = list()
+
+# Empty Tuples
+empty_tuple = ()
+empty_tuple = tuple()
+
+# Empty Sets
+empty_set = {} # This isn't right! It's a dict
+empty_set = set()
+
+#If you want to make a dictionary you do this:
+
+kid= {"Name": "Willy", "Age": 9, "Classes": ["Science", "Math", "Language Arts", "Social Studies"]} #To access a certain thing you do this!
+print(kid["Name"]) # This will print your name. 
+
+#If we want to make a default message when something is not in our list you do this:
+
+print(kid.get("Phone")) #Since there is no phone variable this will print None. If you want it to say something besides None you have to add a argument by doing this: 
+print(kid.get("Phone", "There is nothing available"))
+
+#If you want to update or create a new value you do this:
+
+kid["Phone"]= "404-879-67789"
+print(kid["Phone"])
+
+#If you want to update or add multiple things you should use the update function
+
+kid.update({"Name": "William"})
+
+#If you want to delete something there are two ways to do that. The first way is:
+
+Classes= kid.pop("Classes") #If you were to print Classes it would print your classes. The next was is the del function
+
+#Here is the next way
+
+del kid["Age"]
+
+#To see the keys you do:
+
+print(kid.keys())
+
+#To see the values you do:
+
+print(kid.values())
+
+#To print both keys and values you do:
+
+print(kid.items())
+
+#To loop through both of them you do:
+
+for key, value in kid.items():
+  print(key, value)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
