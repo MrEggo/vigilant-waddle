@@ -84,6 +84,70 @@ soon_to_be_int2= "5"
 soon_to_be_int= int(soon_to_be_int)
 soon_to_be_int2= int(soon_to_be_int2)
 
+#Next you will be learning an array/list
+
+names= ["Me", "Sister", "Mom", "Grandma", "Cousin1", "Cousin2"] #Arrays start from  0 then go up. So there are 6 things I wrote but the AI will only recognize 5. If I want to print one of these things do this:
+print(names[0]) #I wrote 0 but you could have wrote anything 0-5.
+
+#If I wanted to get two things from the list I would do.
+
+print(names[0:3])
+
+#To get anything below something you do:
+
+print(names[:3])
+
+#To get anything above something you do:
+
+print(names[3:])
+
+#To add a thing to a list you do:
+
+names.append("Cousin3")
+
+#To put it in a specific spot you would do:
+
+names.insert(0,"Cousin4") #0 is the spot where it says me. It would make Cousin4 take the spot of Me. You do not have to have 0 as the first argument.
+
+#Next if we want to add another list you do this to our current list:
+
+names_to_remember= ["Her", "Him] #Just adding another list
+names.extend(names_to_remember) #Will add Him and Her to the orriginal list.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
