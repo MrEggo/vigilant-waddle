@@ -251,16 +251,13 @@ print(kid.items())
 for key, value in kid.items():
   print(key, value)
 
-
-
-
-
-
-
-
-
-
-
+#Next we will be learning something called booleans!
+#The first thing is a conditional:
+first_coding_language= "Python"
+if first_coding_language == "Python":
+  print("My first coding language was Python") #Next is an else statement
+else:
+  print("My first coding language was something else")
 
 
 
