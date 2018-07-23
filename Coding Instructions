@@ -259,26 +259,27 @@ if first_coding_language == "Python":
 else:
   print("My first coding language was something else")
 
+#Next is the Turtle command!
+#First you need to import the turtle command
 
+import turtle #Next you need to assign your turtle to a variable
+my_turtle = turtle.Turtle() #Now you can do something fun like change the color. Lets do red for fun.
+my_turtle.color("Red") #Now lets move it!
+my_turtle.forward(100) #Now lets make it go left 90 degress
+my_turtle.left(90) #And now lets move forward
+my_turtle.forward(100) #Lets turn
+my_turtle.left(90) #Lets go straight
+my_turtle.forward(100) #Lets turn
+my_turtle.left(90) #Lets go straight one last time
+my_turtle.forward(100) #Can you guess what shape we made. Enter it in python to find out!
 
+#To make this so you dont have to type it over and over you do this
+def square():
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+import turtle
+turtle1 = turtle.Turtle()
+turtle1.forward(100) #And if you want to "print" it you do
+turtle1()
 
 
 
