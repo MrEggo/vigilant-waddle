@@ -31,12 +31,6 @@ Space= " "
 Name= "MrEggo"
 Greeting= Hello + Space + Name
 
-# Next is another way of adding variables together.
-
-Welcome= "Welcome!"
-Question= "How are you?"
-Combination_Of_Welcome_And_Question= "{} {}".format(Welcome, Question)
-
 # The way you find out what all the functions do is:
 print(help(str))
 
