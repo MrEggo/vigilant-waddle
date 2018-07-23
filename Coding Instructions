@@ -33,7 +33,7 @@ Greeting= Hello + Space + Name
 
 # Next is another way of adding variables together.
 
-Welcome= "welcome!"
+Welcome= "Welcome!"
 Question= "How are you?"
 Combination_Of_Welcome_And_Question= "{} {}".format(Welcome, Question)
 
@@ -111,14 +111,14 @@ names.insert(0,"Cousin4") #0 is the spot where it says me. It would make Cousin4
 
 #Next if we want to add another list you do this to our current list:
 
-names_to_remember= ["Her", "Him] #Just adding another list
+names_to_remember= ["Her", "Him"] #Just adding another list
 names.extend(names_to_remember) #Will add Him and Her to the orriginal list.
 
 #To remove a value you use the remove function
 
-names.remove(Cousin4)
+names.remove("Cousin2")
 
-#To revers the code use the reverse function:
+#To reverse the order
 
 names.reverse()
 
@@ -143,7 +143,7 @@ print(sum(nums)) #Will add all the numbers together
 #Okay the next thing we will do is learn the index command.
 
 word= ["Hello", "Bye", "Large", "Small"]
-print(word.index("Large") #Will find where the word large is
+print(word.index("Large")) #Will find where the word large is
 
 #To find out if a word is in our list we do:
 
@@ -156,7 +156,7 @@ for index, words in enumerate(word):
   
 #When we are making the code do the enumerate you can make it start at a certain number
 
-for index, words in enumerate(word, start=1): 
+for index, words in enumerate(word, start=1-1): 
   print(index, words)
 
 #If we want to put a comma or something to divide a list you do this:
@@ -204,7 +204,7 @@ empty_tuple = ()
 empty_tuple = tuple()
 
 # Empty Sets
-empty_set = {} # This isn't right! It's a dict
+empty_set = {} # This isn't right! It's a dictionaryi
 empty_set = set()
 
 #If you want to make a dictionary you do this:
@@ -275,24 +275,23 @@ my_turtle.forward(100) #Can you guess what shape we made. Enter it in python to 
 
 #To make this so you dont have to type it over and over you do this
 def square():
+  import turtle
+  turtle1 = turtle.Turtle()
+  turtle1.forward(100) #And if you want to "print" it you do
+  turtle1() # Now you can try to make different shapes with the turtle command.
 
-import turtle
-turtle1 = turtle.Turtle()
-turtle1.forward(100) #And if you want to "print" it you do
-turtle1()
-
-
-
-
-
-
-
-
-
-
-
-
-
+#Now this is a way you can make things easier.
+def draw(length, angle):
+  import turtle
+  turtle2 = turtle.Turtle()
+  turtle2.forward(length)
+  turtle2.left(angle)
+  turtle2.forward(length)
+  turtle2.left(angle)
+  turtle2.forward(length)
+  turtle2.left(angle)
+  turtle2.forward(length)
+draw(100, 90)
 
 
 
